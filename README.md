@@ -31,11 +31,11 @@
 
 3 - Maybe you could inject code related to play audios in cutscenes, if you paste a pattern like this:
 
-----FF 00 08 __ __ __ __ __ FE 00 D8 F1 __ __ __ __
+----FF 00 __ __ __ __ __ __ FE 00 D8 F1 __ __ __ __
 
 ----FD 00 00 00 __ __ __ __ __ __ 00 __ 00 00 00 00
 
-----__ __ 00 __ 00 00 00 00 0B ?? ?? ?? 00 00 00 00 (The 0B ?? ?? ?? is the audio ID as explained)
+----__ __ 00 __ 00 00 00 __ 0B ?? ?? ?? 00 00 00 00 (The 0B ?? ?? ?? is the audio ID as explained)
 
 3 - You can compile and decompile cutscenes using GEDecompressor (Only use old version, not new). [tool here](https://github.com/jombo23/N64-Tools)
 
