@@ -1,6 +1,6 @@
 # Conker's Bad Fur Day N64 Random Huguito's Discoveries Documentation
 
-General:
+## General:
 
 1- Using hexadecimal hack, you can port/inject respective binary stuff into ROM if are exact same size.
 
@@ -15,7 +15,7 @@ General:
 1.3 - Example: Port uncensored cutscenes from ECTS builds [mod from gamebanana](https://gamebanana.com/mods/702099)
 
 
-Related to Cutscenes:
+## Related to Cutscenes:
 
 1 - Cutscenes can play audios, but doesn't control the audios time. Maybe the audio time are hardcoded
 
@@ -32,7 +32,7 @@ Related to Cutscenes:
 3 - You can compile and decompile cutscenes using GEDecompressor (Only use old version, not new). [tool here](https://github.com/jombo23/N64-Tools)
 
 
-Related to Cutscenes Audios:
+## Related to Cutscenes Audios:
 
 1- This game has an ingenious lipsync system inside the cutscene audios. It controls the Conker's yaw.
 
